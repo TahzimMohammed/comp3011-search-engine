@@ -1,0 +1,1129 @@
+
+╔══════════════════════════════════════════════════════╗
+║      COMP3011 Search Engine  —  Leeds University     ║
+╚══════════════════════════════════════════════════════╝
+Type 'help' for commands, 'exit' to quit.
+
+> Loading index from data/index.json...
+✓ Index loaded.
+  Pages  : 214
+  Terms  : 4469
+  Tokens : 36101
+
+> Found 11 page(s):
+
+  [1] https://quotes.toscrape.com/tag/indifference/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 6  |  TF-IDF: 0.2878
+       Positions (first term): [9, 18, 27, 36, 46, 55]
+
+  [2] https://quotes.toscrape.com/tag/hate/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 5  |  TF-IDF: 0.2399
+       Positions (first term): [18, 27, 36, 46, 55]
+
+  [3] https://quotes.toscrape.com/tag/activism/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 5  |  TF-IDF: 0.2399
+       Positions (first term): [18, 27, 36, 46, 55]
+
+  [4] https://quotes.toscrape.com/tag/opposite/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 5  |  TF-IDF: 0.2399
+       Positions (first term): [18, 27, 36, 46, 55]
+
+  [5] https://quotes.toscrape.com/tag/apathy/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 5  |  TF-IDF: 0.2399
+       Positions (first term): [18, 27, 36, 46, 55]
+
+  [6] https://quotes.toscrape.com/tag/philosophy/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 5  |  TF-IDF: 0.1766
+       Positions (first term): [18, 27, 36, 46, 55]
+
+  [7] https://quotes.toscrape.com/tag/inspirational/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 5  |  TF-IDF: 0.0396
+       Positions (first term): [307, 316, 325, 335, 344]
+
+  [8] https://quotes.toscrape.com/tag/inspirational/
+       Title   : Quotes to Scrape
+       Hits    : 5  |  TF-IDF: 0.0396
+       Positions (first term): [307, 316, 325, 335, 344]
+
+  [9] https://quotes.toscrape.com/page/2/
+       Title   : Quotes to Scrape
+       Hits    : 5  |  TF-IDF: 0.0318
+       Positions (first term): [474, 483, 492, 502, 511]
+
+  [10] https://quotes.toscrape.com/tag/love/
+       Title   : Quotes to Scrape
+       Hits    : 5  |  TF-IDF: 0.0285
+       Positions (first term): [399, 408, 417, 427, 436]
+
+  [11] https://quotes.toscrape.com/tag/love/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 5  |  TF-IDF: 0.0285
+       Positions (first term): [399, 408, 417, 427, 436]
+
+> Found 34 page(s):
+
+  [1] https://quotes.toscrape.com/tag/contentment/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 5  |  TF-IDF: 0.1689
+       Positions (first term): [10, 12]
+
+  [2] https://quotes.toscrape.com/tag/good/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 3  |  TF-IDF: 0.1231
+       Positions (first term): [9, 31]
+
+  [3] https://quotes.toscrape.com/tag/friends/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 14  |  TF-IDF: 0.0698
+       Positions (first term): [32, 250, 252]
+
+  [4] https://quotes.toscrape.com/tag/friends/
+       Title   : Quotes to Scrape
+       Hits    : 14  |  TF-IDF: 0.0698
+       Positions (first term): [32, 250, 252]
+
+  [5] https://quotes.toscrape.com/tag/aliteracy/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 2  |  TF-IDF: 0.0668
+       Positions (first term): [23]
+
+  [6] https://quotes.toscrape.com/tag/friendship/
+       Title   : Quotes to Scrape
+       Hits    : 6  |  TF-IDF: 0.0620
+       Positions (first term): [37, 39]
+
+  [7] https://quotes.toscrape.com/tag/friendship/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 6  |  TF-IDF: 0.0620
+       Positions (first term): [37, 39]
+
+  [8] https://quotes.toscrape.com/tag/classic/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 2  |  TF-IDF: 0.0519
+       Positions (first term): [23]
+
+  [9] https://quotes.toscrape.com/tag/alcohol/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 2  |  TF-IDF: 0.0487
+       Positions (first term): [36]
+
+  [10] https://quotes.toscrape.com/tag/integrity/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 2  |  TF-IDF: 0.0469
+       Positions (first term): [39]
+
+  [11] https://quotes.toscrape.com/tag/music/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 2  |  TF-IDF: 0.0453
+       Positions (first term): [11]
+
+  [12] https://quotes.toscrape.com/tag/books/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 7  |  TF-IDF: 0.0386
+       Positions (first term): [23, 38, 40]
+
+  [13] https://quotes.toscrape.com/tag/books/
+       Title   : Quotes to Scrape
+       Hits    : 7  |  TF-IDF: 0.0386
+       Positions (first term): [23, 38, 40]
+
+  [14] https://quotes.toscrape.com/tag/heartbreak/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 6  |  TF-IDF: 0.0370
+       Positions (first term): [32]
+
+  [15] https://quotes.toscrape.com/tag/sisters/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 6  |  TF-IDF: 0.0370
+       Positions (first term): [32]
+
+  [16] https://quotes.toscrape.com/tag/attributed-no-source/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 2  |  TF-IDF: 0.0362
+       Positions (first term): [52]
+
+  [17] https://quotes.toscrape.com/tag/life/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 10  |  TF-IDF: 0.0333
+       Positions (first term): [94, 310, 312]
+
+  [18] https://quotes.toscrape.com/tag/life/
+       Title   : Quotes to Scrape
+       Hits    : 10  |  TF-IDF: 0.0333
+       Positions (first term): [94, 310, 312]
+
+  [19] https://quotes.toscrape.com/page/2/
+       Title   : Quotes to Scrape
+       Hits    : 12  |  TF-IDF: 0.0315
+       Positions (first term): [29, 543, 545]
+
+  [20] https://quotes.toscrape.com/tag/writing/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 2  |  TF-IDF: 0.0261
+       Positions (first term): [31]
+
+  [21] https://quotes.toscrape.com/page/6/
+       Title   : Quotes to Scrape
+       Hits    : 4  |  TF-IDF: 0.0222
+       Positions (first term): [60]
+
+  [22] https://quotes.toscrape.com/tag/inspirational/
+       Title   : Quotes to Scrape
+       Hits    : 6  |  TF-IDF: 0.0181
+       Positions (first term): [112]
+
+  [23] https://quotes.toscrape.com/tag/inspirational/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 6  |  TF-IDF: 0.0181
+       Positions (first term): [112]
+
+  [24] https://quotes.toscrape.com/page/7/
+       Title   : Quotes to Scrape
+       Hits    : 3  |  TF-IDF: 0.0161
+       Positions (first term): [33, 264]
+
+  [25] https://quotes.toscrape.com/tag/love/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 7  |  TF-IDF: 0.0149
+       Positions (first term): [58]
+
+  [26] https://quotes.toscrape.com/tag/love/
+       Title   : Quotes to Scrape
+       Hits    : 7  |  TF-IDF: 0.0149
+       Positions (first term): [58]
+
+  [27] https://quotes.toscrape.com/
+       Title   : Quotes to Scrape
+       Hits    : 2  |  TF-IDF: 0.0140
+       Positions (first term): [110]
+
+  [28] https://quotes.toscrape.com/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 2  |  TF-IDF: 0.0140
+       Positions (first term): [110]
+
+  [29] https://quotes.toscrape.com/tag/humor/page/1/
+       Title   : Quotes to Scrape
+       Hits    : 2  |  TF-IDF: 0.0134
+       Positions (first term): [23]
+
+  [30] https://quotes.toscrape.com/tag/humor/
+       Title   : Quotes to Scrape
+       Hits    : 2  |  TF-IDF: 0.0134
+       Positions (first term): [23]
+
+  [31] https://quotes.toscrape.com/page/3/
+       Title   : Quotes to Scrape
+       Hits    : 2  |  TF-IDF: 0.0117
+       Positions (first term): [295]
+
+  [32] https://quotes.toscrape.com/page/9/
+       Title   : Quotes to Scrape
+       Hits    : 2  |  TF-IDF: 0.0102
+       Positions (first term): [82]
+
+  [33] https://quotes.toscrape.com/author/George-Eliot
+       Title   : Quotes to Scrape
+       Hits    : 2  |  TF-IDF: 0.0096
+       Positions (first term): [58]
+
+  [34] https://quotes.toscrape.com/author/J-K-Rowling
+       Title   : Quotes to Scrape
+       Hits    : 2  |  TF-IDF: 0.0060
+       Positions (first term): [623]
+
+> Inverted index for 'nonsense' (6 page(s)):
+
+  [1] https://quotes.toscrape.com/tag/fantasy/page/1/
+       Frequency : 1
+       TF-IDF    : 0.083485
+       Positions : [12]
+
+  [2] https://quotes.toscrape.com/tag/regrets/page/1/
+       Frequency : 1
+       TF-IDF    : 0.048623
+       Positions : [61]
+
+  [3] https://quotes.toscrape.com/page/7/
+       Frequency : 1
+       TF-IDF    : 0.010740
+       Positions : [317]
+
+  [4] https://quotes.toscrape.com/tag/life/page/1/
+       Frequency : 1
+       TF-IDF    : 0.008779
+       Positions : [473]
+
+  [5] https://quotes.toscrape.com/tag/life/
+       Frequency : 1
+       TF-IDF    : 0.008779
+       Positions : [473]
+
+  [6] https://quotes.toscrape.com/page/2/
+       Frequency : 1
+       TF-IDF    : 0.007242
+       Positions : [417]
+
+> Inverted index for 'love' (167 page(s)):
+
+  [1] https://quotes.toscrape.com/tag/romantic/page/1/
+       Frequency : 4
+       TF-IDF    : 0.084520
+       Positions : [21, 23, 35, 41]
+
+  [2] https://quotes.toscrape.com/tag/women/page/1/
+       Frequency : 4
+       TF-IDF    : 0.084520
+       Positions : [21, 23, 35, 41]
+
+  [3] https://quotes.toscrape.com/tag/love/page/2/
+       Frequency : 11
+       TF-IDF    : 0.068226
+       Positions : [9, 11, 18, 97, 108, 134, 146, 148, 160, 178, 183]
+
+  [4] https://quotes.toscrape.com/tag/lack-of-friendship/page/1/
+       Frequency : 3
+       TF-IDF    : 0.064483
+       Positions : [16, 34, 40]
+
+  [5] https://quotes.toscrape.com/tag/lack-of-love/page/1/
+       Frequency : 3
+       TF-IDF    : 0.064483
+       Positions : [16, 34, 40]
+
+  [6] https://quotes.toscrape.com/tag/marriage/page/1/
+       Frequency : 3
+       TF-IDF    : 0.064483
+       Positions : [16, 34, 40]
+
+  [7] https://quotes.toscrape.com/tag/unhappy-marriage/page/1/
+       Frequency : 3
+       TF-IDF    : 0.064483
+       Positions : [16, 34, 40]
+
+  [8] https://quotes.toscrape.com/tag/humor/page/2/
+       Frequency : 4
+       TF-IDF    : 0.063932
+       Positions : [39, 41, 53, 60]
+
+  [9] https://quotes.toscrape.com/tag/poetry/page/1/
+       Frequency : 5
+       TF-IDF    : 0.059936
+       Positions : [11, 22, 30, 81, 86]
+
+  [10] https://quotes.toscrape.com/tag/adventure/page/1/
+       Frequency : 2
+       TF-IDF    : 0.053050
+       Positions : [25, 29]
+
+  [11] https://quotes.toscrape.com/tag/girls/page/1/
+       Frequency : 2
+       TF-IDF    : 0.048889
+       Positions : [29, 33]
+
+  [12] https://quotes.toscrape.com/tag/activism/page/1/
+       Frequency : 3
+       TF-IDF    : 0.046173
+       Positions : [13, 57, 63]
+
+  [13] https://quotes.toscrape.com/tag/apathy/page/1/
+       Frequency : 3
+       TF-IDF    : 0.046173
+       Positions : [13, 57, 63]
+
+  [14] https://quotes.toscrape.com/tag/hate/page/1/
+       Frequency : 3
+       TF-IDF    : 0.046173
+       Positions : [13, 57, 63]
+
+  [15] https://quotes.toscrape.com/tag/indifference/page/1/
+       Frequency : 3
+       TF-IDF    : 0.046173
+       Positions : [13, 57, 63]
+
+  [16] https://quotes.toscrape.com/tag/opposite/page/1/
+       Frequency : 3
+       TF-IDF    : 0.046173
+       Positions : [13, 57, 63]
+
+  [17] https://quotes.toscrape.com/tag/chocolate/page/1/
+       Frequency : 2
+       TF-IDF    : 0.046173
+       Positions : [14, 36]
+
+  [18] https://quotes.toscrape.com/tag/food/page/1/
+       Frequency : 2
+       TF-IDF    : 0.046173
+       Positions : [14, 36]
+
+  [19] https://quotes.toscrape.com/tag/attributed-no-source/page/1/
+       Frequency : 4
+       TF-IDF    : 0.045750
+       Positions : [19, 33, 81, 91]
+
+  [20] https://quotes.toscrape.com/tag/misattributed-to-mother-teresa/page/1/
+       Frequency : 2
+       TF-IDF    : 0.045334
+       Positions : [26, 37]
+
+  [21] https://quotes.toscrape.com/tag/live-death-love/page/1/
+       Frequency : 2
+       TF-IDF    : 0.045334
+       Positions : [26, 37]
+
+  [22] https://quotes.toscrape.com/page/5/
+       Frequency : 9
+       TF-IDF    : 0.041556
+       Positions : [101, 152, 159, 214, 228, 232, 236, 246, 252]
+
+  [23] https://quotes.toscrape.com/tag/love/page/1/
+       Frequency : 22
+       TF-IDF    : 0.040274
+       Positions : [9, 35, 243, 261, 390, 394, 438, 447, 465, 469, 480, 488, 539, 560, 590, 591, 605, 609, 613, 623] ...
+
+  [24] https://quotes.toscrape.com/tag/love/
+       Frequency : 22
+       TF-IDF    : 0.040274
+       Positions : [9, 35, 243, 261, 390, 394, 438, 447, 465, 469, 480, 488, 539, 560, 590, 591, 605, 609, 613, 623] ...
+
+  [25] https://quotes.toscrape.com/tag/friendship/
+       Frequency : 5
+       TF-IDF    : 0.037326
+       Positions : [16, 34, 119, 145, 149]
+
+  [26] https://quotes.toscrape.com/tag/friendship/page/1/
+       Frequency : 5
+       TF-IDF    : 0.037326
+       Positions : [16, 34, 119, 145, 149]
+
+  [27] https://quotes.toscrape.com/tag/philosophy/page/1/
+       Frequency : 3
+       TF-IDF    : 0.034000
+       Positions : [13, 57, 92]
+
+  [28] https://quotes.toscrape.com/tag/paraphrased/page/1/
+       Frequency : 2
+       TF-IDF    : 0.032807
+       Positions : [47, 58]
+
+  [29] https://quotes.toscrape.com/tag/misattributed-to-c-s-lewis/page/1/
+       Frequency : 1
+       TF-IDF    : 0.027704
+       Positions : [27]
+
+  [30] https://quotes.toscrape.com/tag/drug/page/1/
+       Frequency : 1
+       TF-IDF    : 0.027102
+       Positions : [28]
+
+  [31] https://quotes.toscrape.com/tag/romance/page/1/
+       Frequency : 1
+       TF-IDF    : 0.027102
+       Positions : [28]
+
+  [32] https://quotes.toscrape.com/tag/attributed/page/1/
+       Frequency : 1
+       TF-IDF    : 0.026525
+       Positions : [29]
+
+  [33] https://quotes.toscrape.com/tag/fear/page/1/
+       Frequency : 1
+       TF-IDF    : 0.026525
+       Positions : [29]
+
+  [34] https://quotes.toscrape.com/tag/inspiration/page/1/
+       Frequency : 1
+       TF-IDF    : 0.026525
+       Positions : [29]
+
+  [35] https://quotes.toscrape.com/tag/education/page/1/
+       Frequency : 1
+       TF-IDF    : 0.026525
+       Positions : [29]
+
+  [36] https://quotes.toscrape.com/tag/obvious/page/1/
+       Frequency : 1
+       TF-IDF    : 0.025972
+       Positions : [30]
+
+  [37] https://quotes.toscrape.com/tag/novelist-quotes/page/1/
+       Frequency : 1
+       TF-IDF    : 0.025972
+       Positions : [30]
+
+  [38] https://quotes.toscrape.com/tag/elizabeth-bennet/page/1/
+       Frequency : 2
+       TF-IDF    : 0.025705
+       Positions : [17, 79]
+
+  [39] https://quotes.toscrape.com/tag/jane-austen/page/1/
+       Frequency : 2
+       TF-IDF    : 0.025705
+       Positions : [17, 79]
+
+  [40] https://quotes.toscrape.com/tag/sinister/page/1/
+       Frequency : 1
+       TF-IDF    : 0.025442
+       Positions : [31]
+
+  [41] https://quotes.toscrape.com/tag/knowledge/page/1/
+       Frequency : 1
+       TF-IDF    : 0.025442
+       Positions : [31]
+
+  [42] https://quotes.toscrape.com/tag/understanding/page/1/
+       Frequency : 1
+       TF-IDF    : 0.025442
+       Positions : [31]
+
+  [43] https://quotes.toscrape.com/tag/wisdom/page/1/
+       Frequency : 1
+       TF-IDF    : 0.025442
+       Positions : [31]
+
+  [44] https://quotes.toscrape.com/tag/misattributed-to-einstein/page/1/
+       Frequency : 1
+       TF-IDF    : 0.025442
+       Positions : [31]
+
+  [45] https://quotes.toscrape.com/tag/mistakes/page/1/
+       Frequency : 1
+       TF-IDF    : 0.025442
+       Positions : [31]
+
+  [46] https://quotes.toscrape.com/tag/happiness/page/1/
+       Frequency : 1
+       TF-IDF    : 0.024933
+       Positions : [32]
+
+  [47] https://quotes.toscrape.com/tag/imagination/page/1/
+       Frequency : 1
+       TF-IDF    : 0.024933
+       Positions : [32]
+
+  [48] https://quotes.toscrape.com/tag/the-hunger-games/page/1/
+       Frequency : 1
+       TF-IDF    : 0.024445
+       Positions : [33]
+
+  [49] https://quotes.toscrape.com/tag/bilbo/page/1/
+       Frequency : 1
+       TF-IDF    : 0.024445
+       Positions : [33]
+
+  [50] https://quotes.toscrape.com/tag/journey/page/1/
+       Frequency : 1
+       TF-IDF    : 0.024445
+       Positions : [33]
+
+  [51] https://quotes.toscrape.com/tag/lost/page/1/
+       Frequency : 1
+       TF-IDF    : 0.024445
+       Positions : [33]
+
+  [52] https://quotes.toscrape.com/tag/quest/page/1/
+       Frequency : 1
+       TF-IDF    : 0.024445
+       Positions : [33]
+
+  [53] https://quotes.toscrape.com/tag/travel/page/1/
+       Frequency : 1
+       TF-IDF    : 0.024445
+       Positions : [33]
+
+  [54] https://quotes.toscrape.com/tag/wander/page/1/
+       Frequency : 1
+       TF-IDF    : 0.024445
+       Positions : [33]
+
+  [55] https://quotes.toscrape.com/tag/edison/page/1/
+       Frequency : 1
+       TF-IDF    : 0.023975
+       Positions : [34]
+
+  [56] https://quotes.toscrape.com/tag/failure/page/1/
+       Frequency : 1
+       TF-IDF    : 0.023975
+       Positions : [34]
+
+  [57] https://quotes.toscrape.com/tag/adulthood/page/1/
+       Frequency : 1
+       TF-IDF    : 0.023522
+       Positions : [35]
+
+  [58] https://quotes.toscrape.com/tag/success/page/1/
+       Frequency : 1
+       TF-IDF    : 0.023522
+       Positions : [35]
+
+  [59] https://quotes.toscrape.com/tag/value/page/1/
+       Frequency : 1
+       TF-IDF    : 0.023522
+       Positions : [35]
+
+  [60] https://quotes.toscrape.com/tag/fate/page/1/
+       Frequency : 1
+       TF-IDF    : 0.023522
+       Positions : [35]
+
+  [61] https://quotes.toscrape.com/tag/misattributed-john-lennon/page/1/
+       Frequency : 1
+       TF-IDF    : 0.023522
+       Positions : [35]
+
+  [62] https://quotes.toscrape.com/tag/planning/page/1/
+       Frequency : 1
+       TF-IDF    : 0.023522
+       Positions : [35]
+
+  [63] https://quotes.toscrape.com/tag/plans/page/1/
+       Frequency : 1
+       TF-IDF    : 0.023522
+       Positions : [35]
+
+  [64] https://quotes.toscrape.com/tag/simplicity/page/1/
+       Frequency : 1
+       TF-IDF    : 0.023522
+       Positions : [35]
+
+  [65] https://quotes.toscrape.com/tag/understand/page/1/
+       Frequency : 1
+       TF-IDF    : 0.023522
+       Positions : [35]
+
+  [66] https://quotes.toscrape.com/tag/fantasy/page/1/
+       Frequency : 1
+       TF-IDF    : 0.023522
+       Positions : [35]
+
+  [67] https://quotes.toscrape.com/tag/age/page/1/
+       Frequency : 1
+       TF-IDF    : 0.023522
+       Positions : [35]
+
+  [68] https://quotes.toscrape.com/tag/fairytales/page/1/
+       Frequency : 1
+       TF-IDF    : 0.023522
+       Positions : [35]
+
+  [69] https://quotes.toscrape.com/tag/growing-up/page/1/
+       Frequency : 1
+       TF-IDF    : 0.023522
+       Positions : [35]
+
+  [70] https://quotes.toscrape.com/tag/be-yourself/page/1/
+       Frequency : 1
+       TF-IDF    : 0.023087
+       Positions : [36]
+
+  [71] https://quotes.toscrape.com/tag/contentment/page/1/
+       Frequency : 1
+       TF-IDF    : 0.023087
+       Positions : [36]
+
+  [72] https://quotes.toscrape.com/tag/good/page/1/
+       Frequency : 1
+       TF-IDF    : 0.023087
+       Positions : [36]
+
+  [73] https://quotes.toscrape.com/tag/abilities/page/1/
+       Frequency : 1
+       TF-IDF    : 0.022667
+       Positions : [37]
+
+  [74] https://quotes.toscrape.com/tag/choices/page/1/
+       Frequency : 1
+       TF-IDF    : 0.022667
+       Positions : [37]
+
+  [75] https://quotes.toscrape.com/tag/misattributed-mark-twain/page/1/
+       Frequency : 1
+       TF-IDF    : 0.022667
+       Positions : [37]
+
+  [76] https://quotes.toscrape.com/tag/misattributed-eleanor-roosevelt/page/1/
+       Frequency : 1
+       TF-IDF    : 0.022262
+       Positions : [38]
+
+  [77] https://quotes.toscrape.com/page/3/
+       Frequency : 6
+       TF-IDF    : 0.022262
+       Positions : [8, 19, 27, 78, 108, 318]
+
+  [78] https://quotes.toscrape.com/tag/mind/page/1/
+       Frequency : 1
+       TF-IDF    : 0.021871
+       Positions : [39]
+
+  [79] https://quotes.toscrape.com/tag/comedy/page/1/
+       Frequency : 1
+       TF-IDF    : 0.021494
+       Positions : [40]
+
+  [80] https://quotes.toscrape.com/tag/thought/page/1/
+       Frequency : 1
+       TF-IDF    : 0.021494
+       Positions : [40]
+
+  [81] https://quotes.toscrape.com/tag/books/page/2/
+       Frequency : 1
+       TF-IDF    : 0.021494
+       Positions : [40]
+
+  [82] https://quotes.toscrape.com/page/7/
+       Frequency : 7
+       TF-IDF    : 0.021181
+       Positions : [81, 101, 108, 187, 198, 235, 394]
+
+  [83] https://quotes.toscrape.com/tag/aliteracy/page/1/
+       Frequency : 1
+       TF-IDF    : 0.021130
+       Positions : [41]
+
+  [84] https://quotes.toscrape.com/tag/tea/page/1/
+       Frequency : 1
+       TF-IDF    : 0.021130
+       Positions : [41]
+
+  [85] https://quotes.toscrape.com/tag/insanity/page/1/
+       Frequency : 1
+       TF-IDF    : 0.021130
+       Positions : [41]
+
+  [86] https://quotes.toscrape.com/tag/lies/page/1/
+       Frequency : 1
+       TF-IDF    : 0.021130
+       Positions : [41]
+
+  [87] https://quotes.toscrape.com/tag/lying/page/1/
+       Frequency : 1
+       TF-IDF    : 0.021130
+       Positions : [41]
+
+  [88] https://quotes.toscrape.com/tag/self-indulgence/page/1/
+       Frequency : 1
+       TF-IDF    : 0.021130
+       Positions : [41]
+
+  [89] https://quotes.toscrape.com/tag/navigation/page/1/
+       Frequency : 1
+       TF-IDF    : 0.020778
+       Positions : [42]
+
+  [90] https://quotes.toscrape.com/tag/seuss/page/1/
+       Frequency : 1
+       TF-IDF    : 0.020778
+       Positions : [42]
+
+  [91] https://quotes.toscrape.com/tag/change/page/1/
+       Frequency : 1
+       TF-IDF    : 0.020437
+       Positions : [43]
+
+  [92] https://quotes.toscrape.com/tag/deep-thoughts/page/1/
+       Frequency : 1
+       TF-IDF    : 0.020437
+       Positions : [43]
+
+  [93] https://quotes.toscrape.com/tag/world/page/1/
+       Frequency : 1
+       TF-IDF    : 0.020437
+       Positions : [43]
+
+  [94] https://quotes.toscrape.com/tag/read/page/1/
+       Frequency : 1
+       TF-IDF    : 0.020437
+       Positions : [43]
+
+  [95] https://quotes.toscrape.com/tag/readers/page/1/
+       Frequency : 1
+       TF-IDF    : 0.020437
+       Positions : [43]
+
+  [96] https://quotes.toscrape.com/tag/reading-books/page/1/
+       Frequency : 1
+       TF-IDF    : 0.020437
+       Positions : [43]
+
+  [97] https://quotes.toscrape.com/tag/open-mind/page/1/
+       Frequency : 1
+       TF-IDF    : 0.019788
+       Positions : [45]
+
+  [98] https://quotes.toscrape.com/tag/fairy-tales/page/1/
+       Frequency : 1
+       TF-IDF    : 0.019788
+       Positions : [45]
+
+  [99] https://quotes.toscrape.com/tag/god/page/1/
+       Frequency : 1
+       TF-IDF    : 0.019788
+       Positions : [45]
+
+  [100] https://quotes.toscrape.com/tag/better-life-empathy/page/1/
+       Frequency : 1
+       TF-IDF    : 0.019479
+       Positions : [46]
+
+  [101] https://quotes.toscrape.com/tag/live/page/1/
+       Frequency : 1
+       TF-IDF    : 0.018607
+       Positions : [49]
+
+  [102] https://quotes.toscrape.com/tag/miracle/page/1/
+       Frequency : 1
+       TF-IDF    : 0.018607
+       Positions : [49]
+
+  [103] https://quotes.toscrape.com/tag/miracles/page/1/
+       Frequency : 1
+       TF-IDF    : 0.018607
+       Positions : [49]
+
+  [104] https://quotes.toscrape.com/tag/christianity/page/1/
+       Frequency : 1
+       TF-IDF    : 0.018607
+       Positions : [49]
+
+  [105] https://quotes.toscrape.com/tag/faith/page/1/
+       Frequency : 1
+       TF-IDF    : 0.018607
+       Positions : [49]
+
+  [106] https://quotes.toscrape.com/tag/sun/page/1/
+       Frequency : 1
+       TF-IDF    : 0.018607
+       Positions : [49]
+
+  [107] https://quotes.toscrape.com/tag/beatles/page/1/
+       Frequency : 1
+       TF-IDF    : 0.018068
+       Positions : [51]
+
+  [108] https://quotes.toscrape.com/tag/connection/page/1/
+       Frequency : 1
+       TF-IDF    : 0.018068
+       Positions : [51]
+
+  [109] https://quotes.toscrape.com/tag/dreamers/page/1/
+       Frequency : 1
+       TF-IDF    : 0.018068
+       Positions : [51]
+
+  [110] https://quotes.toscrape.com/tag/dreaming/page/1/
+       Frequency : 1
+       TF-IDF    : 0.018068
+       Positions : [51]
+
+  [111] https://quotes.toscrape.com/tag/dreams/page/1/
+       Frequency : 1
+       TF-IDF    : 0.018068
+       Positions : [51]
+
+  [112] https://quotes.toscrape.com/tag/peace/page/1/
+       Frequency : 1
+       TF-IDF    : 0.018068
+       Positions : [51]
+
+  [113] https://quotes.toscrape.com/tag/difficult/page/1/
+       Frequency : 1
+       TF-IDF    : 0.017810
+       Positions : [52]
+
+  [114] https://quotes.toscrape.com/tag/grown-ups/page/1/
+       Frequency : 1
+       TF-IDF    : 0.017810
+       Positions : [52]
+
+  [115] https://quotes.toscrape.com/tag/write/page/1/
+       Frequency : 1
+       TF-IDF    : 0.017810
+       Positions : [52]
+
+  [116] https://quotes.toscrape.com/tag/writers/page/1/
+       Frequency : 1
+       TF-IDF    : 0.017810
+       Positions : [52]
+
+  [117] https://quotes.toscrape.com/tag/classic/page/1/
+       Frequency : 1
+       TF-IDF    : 0.016404
+       Positions : [58]
+
+  [118] https://quotes.toscrape.com/page/2/
+       Frequency : 8
+       TF-IDF    : 0.016323
+       Positions : [214, 285, 414, 469, 513, 522, 540, 593]
+
+  [119] https://quotes.toscrape.com/tag/yourself/page/1/
+       Frequency : 1
+       TF-IDF    : 0.016191
+       Positions : [59]
+
+  [120] https://quotes.toscrape.com/page/9/
+       Frequency : 5
+       TF-IDF    : 0.016107
+       Positions : [36, 38, 50, 162, 369]
+
+  [121] https://quotes.toscrape.com/tag/learning/page/1/
+       Frequency : 1
+       TF-IDF    : 0.015983
+       Positions : [60]
+
+  [122] https://quotes.toscrape.com/tag/troubles/page/1/
+       Frequency : 1
+       TF-IDF    : 0.015983
+       Positions : [60]
+
+  [123] https://quotes.toscrape.com/tag/dumbledore/page/1/
+       Frequency : 1
+       TF-IDF    : 0.015781
+       Positions : [61]
+
+  [124] https://quotes.toscrape.com/tag/courage/page/1/
+       Frequency : 1
+       TF-IDF    : 0.015391
+       Positions : [63]
+
+  [125] https://quotes.toscrape.com/tag/alcohol/page/1/
+       Frequency : 1
+       TF-IDF    : 0.015391
+       Positions : [63]
+
+  [126] https://quotes.toscrape.com/page/4/
+       Frequency : 3
+       TF-IDF    : 0.015081
+       Positions : [105, 136, 230]
+
+  [127] https://quotes.toscrape.com/tag/simile/page/1/
+       Frequency : 1
+       TF-IDF    : 0.014841
+       Positions : [66]
+
+  [128] https://quotes.toscrape.com/tag/simile/
+       Frequency : 1
+       TF-IDF    : 0.014841
+       Positions : [66]
+
+  [129] https://quotes.toscrape.com/tag/integrity/page/1/
+       Frequency : 1
+       TF-IDF    : 0.014841
+       Positions : [66]
+
+  [130] https://quotes.toscrape.com/tag/hope/page/1/
+       Frequency : 1
+       TF-IDF    : 0.014330
+       Positions : [69]
+
+  [131] https://quotes.toscrape.com/tag/music/page/1/
+       Frequency : 1
+       TF-IDF    : 0.014330
+       Positions : [69]
+
+  [132] https://quotes.toscrape.com/tag/authors/page/1/
+       Frequency : 1
+       TF-IDF    : 0.014008
+       Positions : [71]
+
+  [133] https://quotes.toscrape.com/tag/literature/page/1/
+       Frequency : 1
+       TF-IDF    : 0.014008
+       Positions : [71]
+
+  [134] https://quotes.toscrape.com/tag/regrets/page/1/
+       Frequency : 1
+       TF-IDF    : 0.013700
+       Positions : [73]
+
+  [135] https://quotes.toscrape.com/tag/thinking/page/1/
+       Frequency : 1
+       TF-IDF    : 0.013405
+       Positions : [75]
+
+  [136] https://quotes.toscrape.com/page/6/
+       Frequency : 3
+       TF-IDF    : 0.012941
+       Positions : [41, 89, 271]
+
+  [137] https://quotes.toscrape.com/tag/humor/page/1/
+       Frequency : 3
+       TF-IDF    : 0.012721
+       Positions : [123, 146, 276]
+
+  [138] https://quotes.toscrape.com/tag/humor/
+       Frequency : 3
+       TF-IDF    : 0.012721
+       Positions : [123, 146, 276]
+
+  [139] https://quotes.toscrape.com/tag/religion/page/1/
+       Frequency : 1
+       TF-IDF    : 0.012721
+       Positions : [80]
+
+  [140] https://quotes.toscrape.com/tag/library/page/1/
+       Frequency : 1
+       TF-IDF    : 0.012467
+       Positions : [82]
+
+  [141] https://quotes.toscrape.com/tag/children/page/1/
+       Frequency : 1
+       TF-IDF    : 0.012222
+       Positions : [84]
+
+  [142] https://quotes.toscrape.com/tag/inspirational/page/2/
+       Frequency : 1
+       TF-IDF    : 0.012104
+       Positions : [85]
+
+  [143] https://quotes.toscrape.com/tag/death/page/1/
+       Frequency : 1
+       TF-IDF    : 0.011231
+       Positions : [93]
+
+  [144] https://quotes.toscrape.com/tag/life/page/2/
+       Frequency : 1
+       TF-IDF    : 0.011131
+       Positions : [94]
+
+  [145] https://quotes.toscrape.com/tag/heartbreak/page/1/
+       Frequency : 2
+       TF-IDF    : 0.010389
+       Positions : [217, 222]
+
+  [146] https://quotes.toscrape.com/tag/sisters/page/1/
+       Frequency : 2
+       TF-IDF    : 0.010389
+       Positions : [217, 222]
+
+  [147] https://quotes.toscrape.com/tag/inspirational/page/1/
+       Frequency : 4
+       TF-IDF    : 0.010156
+       Positions : [297, 302, 346, 473]
+
+  [148] https://quotes.toscrape.com/tag/inspirational/
+       Frequency : 4
+       TF-IDF    : 0.010156
+       Positions : [297, 302, 346, 473]
+
+  [149] https://quotes.toscrape.com/tag/truth/
+       Frequency : 1
+       TF-IDF    : 0.009816
+       Positions : [109]
+
+  [150] https://quotes.toscrape.com/tag/truth/page/1/
+       Frequency : 1
+       TF-IDF    : 0.009816
+       Positions : [109]
+
+  [151] https://quotes.toscrape.com/page/10/
+       Frequency : 2
+       TF-IDF    : 0.009201
+       Positions : [80, 253]
+
+  [152] https://quotes.toscrape.com/
+       Frequency : 2
+       TF-IDF    : 0.008873
+       Positions : [195, 263]
+
+  [153] https://quotes.toscrape.com/page/1/
+       Frequency : 2
+       TF-IDF    : 0.008873
+       Positions : [195, 263]
+
+  [154] https://quotes.toscrape.com/tag/writing/page/1/
+       Frequency : 1
+       TF-IDF    : 0.008256
+       Positions : [133]
+
+  [155] https://quotes.toscrape.com/author/Bob-Marley
+       Frequency : 1
+       TF-IDF    : 0.008256
+       Positions : [104]
+
+  [156] https://quotes.toscrape.com/tag/friends/
+       Frequency : 2
+       TF-IDF    : 0.008017
+       Positions : [217, 293]
+
+  [157] https://quotes.toscrape.com/tag/friends/page/1/
+       Frequency : 2
+       TF-IDF    : 0.008017
+       Positions : [217, 293]
+
+  [158] https://quotes.toscrape.com/page/8/
+       Frequency : 2
+       TF-IDF    : 0.007941
+       Positions : [32, 296]
+
+  [159] https://quotes.toscrape.com/tag/life/page/1/
+       Frequency : 3
+       TF-IDF    : 0.007421
+       Positions : [71, 279, 486]
+
+  [160] https://quotes.toscrape.com/tag/life/
+       Frequency : 3
+       TF-IDF    : 0.007421
+       Positions : [71, 279, 486]
+
+  [161] https://quotes.toscrape.com/author/Pablo-Neruda
+       Frequency : 2
+       TF-IDF    : 0.006361
+       Positions : [124, 132]
+
+  [162] https://quotes.toscrape.com/author/Jim-Henson
+       Frequency : 1
+       TF-IDF    : 0.006296
+       Positions : [110]
+
+  [163] https://quotes.toscrape.com/tag/reading/
+       Frequency : 1
+       TF-IDF    : 0.004870
+       Positions : [238]
+
+  [164] https://quotes.toscrape.com/tag/reading/page/1/
+       Frequency : 1
+       TF-IDF    : 0.004870
+       Positions : [238]
+
+  [165] https://quotes.toscrape.com/tag/books/page/1/
+       Frequency : 1
+       TF-IDF    : 0.003688
+       Positions : [320]
+
+  [166] https://quotes.toscrape.com/tag/books/
+       Frequency : 1
+       TF-IDF    : 0.003688
+       Positions : [320]
+
+  [167] https://quotes.toscrape.com/author/William-Nicholson
+       Frequency : 1
+       TF-IDF    : 0.003512
+       Positions : [329]
+
+> Usage: find <query>
+> No pages found.
+> Suggestions for 'indif': indifference, india
+> 
+Index Statistics
+  Total pages   : 214
+  Total tokens  : 36101
+  Unique terms  : 4469
+  Build time    : 1313.76s
+  Avg tokens/pg : 168
+
+> 
+Benchmark: find('good friends') over 100 runs
+  Min : 0.074 ms
+  Avg : 0.080 ms
+  Max : 0.146 ms
+
+> 
+Goodbye.
