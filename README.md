@@ -165,3 +165,4 @@ Expected output: 92 tests passing, 96% coverage across core modules.
 - Requests library for HTTP requests
 - Beautiful Soup 4 for HTML parsing
 - TF-IDF formula adapted from scikit-learn documentation
+- This project was developed with the assistance of Claude (Anthropic) as an AI pair programmer, helping scaffold the initial structure and explain concepts, with all code verified, debugged and understood independently.
