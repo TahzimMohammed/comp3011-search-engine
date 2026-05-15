@@ -33,7 +33,7 @@ from crawler import Crawler, CrawlerConfig
 from indexer import Indexer
 from search import SearchEngine
 
-DEFAULT_INDEX = Path("data/index.json")
+DEFAULT_INDEX = Path(__file__).parent.parent / "data" / "index.json"
 TARGET_URL = "https://quotes.toscrape.com/"
 
 
