@@ -39,11 +39,6 @@ class SearchResult:
 class SearchEngine:
     """
     High-level query interface over an Indexer.
-
-    Parameters
-    ----------
-    indexer       : A loaded/built Indexer instance.
-    max_suggestions : Maximum number of query suggestions to return.
     """
 
     def __init__(self, indexer: "Indexer", max_suggestions: int = 5) -> None:
@@ -57,15 +52,6 @@ class SearchEngine:
     def find(self, query: str) -> list[SearchResult]:
         """
         Return pages containing ALL terms in query, ranked by TF-IDF.
-
-        Parameters
-        ----------
-        query : Raw query string (case-insensitive, any whitespace).
-
-        Returns
-        -------
-        list[SearchResult]
-            Ranked results. Empty list for empty/unmatched queries.
         """
         if not query or not query.strip():
             return []
@@ -92,10 +78,6 @@ class SearchEngine:
     def print_word(self, word: str) -> list[PageEntry]:
         """
         Return the raw posting list for a single word.
-
-        Parameters
-        ----------
-        word : Single token to look up.
         """
         if not word or not word.strip():
             return []
@@ -108,16 +90,6 @@ class SearchEngine:
     def suggest(self, query: str, n: int | None = None) -> list[str]:
         """
         Return up to n query suggestions for query.
-
-        Tries in order:
-        1. Exact match (already valid — no suggestion needed).
-        2. Prefix match (query is a prefix of known terms).
-        3. Close match via difflib (handles typos).
-
-        Parameters
-        ----------
-        query : Partial or misspelled query term.
-        n     : Max suggestions (defaults to self._max_suggestions).
         """
         n = n or self._max_suggestions
         term = query.strip().lower()

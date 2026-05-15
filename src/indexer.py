@@ -16,11 +16,6 @@ Design decisions
     IDF(t)   = log( (1 + N) / (1 + df(t)) ) + 1
     Weight   = TF * IDF
 
-Complexity
-----------
-* Build:            O(T) where T = total tokens across all pages.
-* Find (1 term):    O(P) where P = pages containing the term.
-* Find (k terms):   O(k * P_min), P_min = smallest posting list.
 """
 
 from __future__ import annotations
@@ -73,11 +68,6 @@ _TOKEN_RE = re.compile(r"[a-zA-Z](?:[a-zA-Z'\-]*[a-zA-Z])?")
 def tokenise(text: str) -> list[str]:
     """
     Tokenise text into lower-case alpha tokens.
-
-    Examples
-    --------
-    >>> tokenise("Hello, World! It's a test.")
-    ['hello', 'world', "it's", 'a', 'test']
     """
     return [m.group().lower() for m in _TOKEN_RE.finditer(text)]
 
@@ -100,15 +90,6 @@ def extract_text(html: str) -> str:
 class Indexer:
     """
     Builds and manages an inverted index over a collection of web pages.
-
-    Attributes
-    ----------
-    index : dict[str, list[PageEntry]]
-        Mapping from term to list of per-page entries (sorted by TF-IDF desc).
-    page_metadata : dict[str, dict]
-        Mapping from URL to {title, token_count}.
-    stats : IndexStats
-        Summary stats populated after finalise() is called.
     """
 
     def __init__(self) -> None:
@@ -167,8 +148,6 @@ class Indexer:
         """
         Compute TF-IDF weights for every (term, page) pair and sort
         each posting list by descending TF-IDF score.
-
-        Call this after all pages have been added via add_page().
         """
         N = len(self.page_metadata)
         if N == 0:
@@ -212,17 +191,7 @@ class Indexer:
     def find(self, query: str) -> list[PageEntry]:
         """
         Find pages containing ALL query terms (AND semantics).
-
-        Results are ranked by the SUM of TF-IDF scores across all terms.
-
-        Parameters
-        ----------
-        query : Space-separated search terms (case-insensitive).
-
-        Returns
-        -------
-        list[PageEntry]
-            Ranked results sorted by combined relevance score descending.
+        Results are ranked by the SUM of TF-IDF scores across all terms..
         """
         terms = tokenise(query)
         if not terms:
@@ -308,11 +277,6 @@ class Indexer:
     def load(self, path: str | Path) -> None:
         """
         Deserialise the index from a JSON file at path.
-
-        Raises
-        ------
-        FileNotFoundError : if path does not exist.
-        ValueError        : if the file format is unrecognised.
         """
         path = Path(path)
         if not path.exists():
